@@ -1,9 +1,9 @@
 // Weighted_Graph.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 #include<iostream>
-#include<set>
-#include<list>
-#include<algorithm>
+#include<set>                   //to create empty set
+#include<list>                  //to create empty list and store nodes
+#include<algorithm>             //to use min_element function in dijkstra
 #define infinity 1410065407;    //define max value
 
 using namespace std;
